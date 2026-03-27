@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creative Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container navbar">
+      <div class="logo">Creative<span>Hub</span></div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="themeToggle" class="theme-btn">🌙</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Build Stunning Websites with Creativity</h1>
+        <p>
+          A modern and beginner-friendly landing page project built using
+          HTML, CSS, and JavaScript. Perfect for internship submission and portfolio.
+        </p>
+        <div class="hero-buttons">
+          <a href="#features" class="btn primary-btn">Explore More</a>
+          <a href="#contact" class="btn secondary-btn">Get Started</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900" alt="Web Development">
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <div class="container">
+      <h2 class="section-title">Our Features</h2>
+      <div class="feature-grid">
+        <div class="feature-box">
+          <h3>Modern Design</h3>
+          <p>Clean and attractive UI with smooth spacing, alignment, and visual appeal.</p>
+        </div>
+        <div class="feature-box">
+          <h3>Responsive Layout</h3>
+          <p>Works well on desktops, tablets, and mobile devices without overlapping.</p>
+        </div>
+        <div class="feature-box">
+          <h3>Easy to Customize</h3>
+          <p>Simple code structure that beginners can easily understand and modify.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container about-content">
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=900" alt="About Project">
+      </div>
+      <div class="about-text">
+        <h2>Why This Project?</h2>
+        <p>
+          This landing page helps beginners understand the fundamentals of web design:
+          sectioning, layouts, columns, padding, typography, color palettes, and responsive structure.
+        </p>
+        <p>
+          It is an excellent project to showcase creativity and front-end development skills during internships.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta">
+    <div class="container cta-box">
+      <h2>Start Your Web Development Journey Today</h2>
+      <p>Practice, customize, and make this landing page your own unique creation.</p>
+      <a href="#contact" class="btn primary-btn">Join Now</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact Us</h2>
+      <form class="contact-form" id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn primary-btn">Send Message</button>
+      </form>
+      <p id="formMessage" class="form-message"></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <p>© 2026 CreativeHub. All Rights Reserved.</p>
+      <p>Designed for Internship Project Submission</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
