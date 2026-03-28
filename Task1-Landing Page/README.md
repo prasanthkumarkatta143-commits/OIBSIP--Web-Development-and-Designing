@@ -1,27 +1,4 @@
-Perfect — here’s your **updated `README.md`** with the **Author section added** as:
 
-> **Developed by Katta Prasanth Kumar**
-
-You can replace your current `README.md` with this:
-
----
-
-````md id="read45"
-# 🌐 Landing Page Project
-
-A **responsive landing page** built using **HTML, CSS, and JavaScript**.  
-This project is designed for **beginners in web development** and is perfect for **internship submission**.
-
-It demonstrates the fundamentals of front-end development such as:
-
-- Structuring a webpage using **HTML**
-- Styling sections using **CSS**
-- Adding simple interactivity using **JavaScript**
-- Creating a clean and modern **landing page UI**
-- Managing **alignment, spacing, padding, colors, and layout**
-- Making the design **responsive** and preventing overlapping elements
-
----
 
 ## 📌 Project Objective
 
@@ -199,27 +176,9 @@ This project can be improved further by adding:
 
 ---
 
-## 🧑‍💻 Internship Submission Note
-
-This project is suitable for internship tasks because it demonstrates:
-
-* HTML structure creation
-* CSS styling skills
-* Responsive layout design
-* JavaScript-based interactivity
-* Creativity in webpage design
-
----
-
 ## 👨‍💻 Author
 
 **Developed by Katta Prasanth Kumar**
-
----
-
-## 📃 License
-
-This project is created for **educational and internship purposes**.
 
 ---
 
@@ -227,31 +186,4 @@ This project is created for **educational and internship purposes**.
 
 This Landing Page project is a great beginner-friendly web development project that helps in understanding the core concepts of **HTML, CSS, and JavaScript** while also allowing room for creativity and design improvement.
 
----
 
-````
-
----
-
-## ✅ Small Improvement Suggestion
-
-You can also make the author section look more professional like this:
-
-```md
-## 👨‍💻 Author
-
-**Katta Prasanth Kumar**  
-Frontend Web Development Project  
-Internship Submission
-````
-
----
-
-If you want, I can also give you a **fully polished GitHub-ready README.md with:**
-
-* **project badges**
-* **live demo section**
-* **screenshots section**
-* **author links (GitHub / LinkedIn)**
-
-That version looks much more **professional for internship submission**.
